@@ -16,18 +16,18 @@ Python-разработчик с инженерным бэкграундом и 
 - Инфраструктура и деплой (Docker, CI/CD, сервера)
 
 ### 🛠 Технологии
-**Backend:** Python, FastAPI, Flask, Django, Django REST Framework, aiohttp  
-**Frontend:** HTML5, CSS3, JavaScript, Jinja2, Responsive Design, CSS Grid, Flexbox  
-**Базы данных:** PostgreSQL, SQLite, Django ORM, SQLAlchemy, Alembic, asyncpg  
-**Шаблонизаторы:** Jinja2, Django Templates - полноценные клиентские интерфейсы  
-**Инфраструктура:** Docker, Docker Compose, Nginx, CI/CD (GitHub Actions), Ubuntu Server  
-**Безопасность:** JWT, bcrypt, CORS, Data Validation, CSRF protection  
-**Тестирование:** pytest, unittest, автоматизация тестирования  
-**Инструменты:** Git, REST API, Server-Sent Events, PyTelegramBotAPI, SSL, WebSockets
+- **Backend:** Python, FastAPI, Flask, Django, Django REST Framework, aiohttp  
+- **Frontend:** HTML5, CSS3, JavaScript, Jinja2, Responsive Design, CSS Grid, Flexbox  
+- **Базы данных:** PostgreSQL, SQLite, Django ORM, SQLAlchemy, Alembic, asyncpg  
+- **Шаблонизаторы:** Jinja2, Django Templates - полноценные клиентские интерфейсы  
+- **Инфраструктура:** Docker, Docker Compose, Nginx, CI/CD (GitHub Actions), Ubuntu Server  
+- **Безопасность:** JWT, bcrypt, CORS, Data Validation, CSRF protection  
+- **Тестирование:** pytest, unittest, автоматизация тестирования  
+- **Инструменты:** Git, REST API, Server-Sent Events, PyTelegramBotAPI, SSL, WebSockets
 
 ### 💼 Ключевые проекты
 
-#### 🌎 [YourDev - Современное веб-портфолио](https://github.com/Kentiy2717/portfolio)
+#### 🌎 [YourDev - Современное веб-портфолио](https://github.com/Kentiy2717/YourDev)
 **Full-stack приложение с кибер-дизайном и полной архитектурой**
 - **FastAPI, SQLAlchemy 2.0, PostgreSQL** - современный асинхронный стек
 - **JWT аутентификация** - защищенные маршруты и API
