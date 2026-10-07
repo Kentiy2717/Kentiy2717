@@ -1,110 +1,68 @@
-# Иннокентий Мотрий | Python Full-Stack Developer
+# Иннокентий Мотрий | Python Backend Developer
 
 ### 👨‍💻 Обо мне
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-Python-разработчик с инженерным бэкграундом и коммерческим опытом создания комплексных решений,
-создающий **полнофункциональные веб-приложения под ключ**. 
-Специализируюсь на **Python-стэке** - от серверной логики до клиентских интерфейсов 
-с использованием шаблонизаторов. Умею доводить проекты от идеи до работающего продукта.
+Python Backend-разработчик с 2 годами коммерческого опыта в разработке серверных приложений и автоматизации (АО «ЭлеСи») и фундаментальным 5-летним инженерным бэкграундом.
 
-**Мой подход:** создаю законченные, работающие решения без необходимости 
-привлечения отдельных фронтенд-разработчиков для большинства проектов.
-
-### 🛠 Специализация
-**Backend & Full-Stack на Python:**
-- API, базы данных, бизнес-логика (FastAPI, Django, Flask)
-- Клиентские интерфейсы (Jinja2, Django Templates, HTML/CSS/JS)
-- Инфраструктура и деплой (Docker, CI/CD, сервера)
-
-### 🛠 Технологии
-- **Backend:** Python, FastAPI, Flask, Django, Django REST Framework, aiohttp  
-- **Frontend:** HTML5, CSS3, JavaScript, Jinja2, Responsive Design, CSS Grid, Flexbox  
-- **Базы данных:** PostgreSQL, SQLite, Django ORM, SQLAlchemy, Alembic, asyncpg  
-- **Шаблонизаторы:** Jinja2, Django Templates - полноценные клиентские интерфейсы  
-- **Инфраструктура:** Docker, Docker Compose, Nginx, CI/CD (GitHub Actions), Ubuntu Server  
-- **Безопасность:** JWT, bcrypt, CORS, Data Validation, CSRF protection  
-- **Тестирование:** pytest, unittest, автоматизация тестирования  
-- **Инструменты:** Git, REST API, Server-Sent Events, PyTelegramBotAPI, SSL, WebSockets
-
-### 💼 Ключевые проекты
-
-#### 🌎 [YourDev - Современное веб-портфолио](https://github.com/Kentiy2717/YourDev)
-**Full-stack приложение с кибер-дизайном и полной архитектурой**
-- **FastAPI, SQLAlchemy 2.0, PostgreSQL** - современный асинхронный стек
-- **JWT аутентификация** - защищенные маршруты и API
-- **Многослойная архитектура** - репозитории, сервисы, схемы
-- **Адаптивный кибер-дизайн** - неоновые эффекты и анимации на чистом CSS
-- **Jinja2 шаблоны** - динамическая генерация страниц
-- **Docker контейнеризация** - готово к развертыванию
-
-#### 🏭 [Система тестирования ПЛК](https://github.com/Kentiy2717/) 
-**Комплексное решение для автоматизации тестирования промышленных контроллеров**
-- **Django, Python, PyModbus** - бэкенд и веб-интерфейс
-- **Django Templates** - административный интерфейс и дашборды
-- **400+ автотестов** - параллельное выполнение, покрытие 95% критического функционала
-- **Интеграция с промышленным оборудованием** - работа в реальном времени
-- **Server-Sent Events** - live-обновление интерфейса
-
-#### ✂️ [YaCut - Сервис сокращения ссылок](https://github.com/Kentiy2717/yacut)
-**Сервис для сокращения URL и асинхронной загрузки файлов на Яндекс.Диск**
-- **Flask, SQLAlchemy, aiohttp** - модульная архитектура, REST API
-- **Jinja2 шаблоны** - чистый и функциональный пользовательский интерфейс
-- **Асинхронная загрузка файлов** через Яндекс.Диск API
-- **Многоуровневая валидация** и обработка ошибок
-
-#### 🍳 [Foodgram](https://github.com/Kentiy2717/foodgram)
-**Платформа для публикации рецептов с полноценным CI/CD**
-- **Django REST Framework, Docker, Nginx** - полноценный production стек
-- **Django Templates** - пользовательские интерфейсы и административная панель
-- **Автоматический деплой и тестирование** - GitHub Actions
-- **Список покупок и избранные рецепты** - пользовательские функции
-
-### 📊 Ключевые навыки Full-Stack
-
-#### 🏗️ Backend & Architecture
-- Проектирование REST API и серверной логики
-- Работа с базами данных и ORM
-- Аутентификация и авторизация
-- Оптимизация производительности
-
-#### 🎨 Frontend & UI/UX
-- **Шаблонизаторы:** Jinja2, Django Templates - создание динамических интерфейсов
-- **Адаптивный дизайн:** Mobile-first подход, CSS Grid, Flexbox
-- **Интерактивность:** JavaScript, анимации, пользовательский опыт
-- **Верстка:** Семантический HTML, современный CSS, кроссбраузерность
-
-#### 🚀 Deployment & DevOps
-- Контейнеризация приложений
-- CI/CD пайплайны
-- Мониторинг и логирование
-
-### 🎯 В поиске
-Ищу интересные проекты и задачи где смогу применить свой full-stack опыт в:
-- Backend разработке на Python (FastAPI/Django/Flask)
-- Создании полноценных веб-приложений под ключ
-- Разработке клиентских интерфейсов с шаблонизаторами
-- Автоматизации процессов и тестирования
-- Оптимизации и масштабировании существующих решений
-
-### 📫 Контакты
-- **📱 Telegram**: [@kentiy2717](https://t.me/kentiy2717) - предпочтительный способ связи
-- **📫 Email**: kentiy93@gmail.com
-- **☁️ GitHub**: [Kentiy2717](https://github.com/Kentiy2717)
-- **🌐 YourDev**: [Live Demo](https://your-dev.ru) *[скоро]*
+Специализируюсь на проектировании масштабируемой бэкенд-архитектуры, оптимизации баз данных, многопоточных и асинхронных сервисах на **FastAPI** и **Django**.
 
 ---
 
-*💡 Готов к новым вызовам и full-stack проектам! От бэкенда до клиентского интерфейса - создам законченное решение.*
+### 🛠 Технологический стек
+
+- **Backend:** Python 3.12+, FastAPI, Django, Asyncio, Threading, aiohttp, Server-Sent Events (SSE)
+- **Базы данных & ORM:** PostgreSQL, SQLAlchemy 2.0 (asyncpg), Django ORM, Alembic, SQLite
+- **Архитектура & Качество:** Clean Architecture, SOLID, DRY, Pytest, pytest-django, Logging
+- **Инфраструктура & DevOps:** Docker, Docker Compose, Nginx, Gunicorn, Uvicorn, Linux (Ubuntu), Git
+- **Интеграция & Desktop:** REST API, PySide6 (Qt), XML-парсеры, PyModbus (Modbus TCP)
+
+---
+
+### 💼 Ключевые проекты
+
+#### 🚀 [YourDev — Сервис заказа IT-разработки](https://github.com/Kentiy2717/yourdev)
+**Асинхронная веб-платформа на FastAPI и Clean Architecture**
+- **Clean Architecture:** Жесткое разделение слоев (Router $\rightarrow$ Service $\rightarrow$ Repository).
+- **Стек:** FastAPI 0.118, SQLAlchemy 2.0 (asyncpg), Alembic, PostgreSQL.
+- **Инфраструктура:** Multi-stage сборка Docker, Nginx, Uvicorn, Gunicorn.
+
+#### 💆‍♂️ [YourProMassage — Платформа услуг с блогом](https://github.com/Kentiy2717/yourpromassage)
+**Сервис с системой отзывов, премодерацией и динамическим блогом**
+- **Стек:** Django 3.2, PostgreSQL, Pytest, Django Signals.
+- **Архитектурные решения:** Кастомная аутентификация по Email (`AbstractUser`), мягкое удаление (`Soft Delete`), каскадная синхронизация целостности данных на сигналах с `transaction.on_commit`.
+- **Тестирование:** Покрытие бизнес-логики интеграционными и модульными тестами на `pytest-django`.
+
+#### 🎲 [Zatusim — Игровая веб-платформа](https://github.com/Kentiy2717/zatusim)
+**Интерактивный игровой сервис для вечеринок**
+- **Стек:** Django 3.2, PostgreSQL, JSONField, ETL-скрипты.
+- **Оптимизация:** Движок игровых сессий с хранением состояний в `JSONField` (без избыточных `JOIN`), REST-like JsonResponse эндпоинты, массовая вставка контента через `bulk_create`.
+
+#### 📚 [Биполярный Экспресс — Контентная платформа](https://github.com/Kentiy2717/bipolar-express)
+**Каталог книг и веб-блог с оптимизированными запросами к БД**
+- **Стек:** Django 3.2, PostgreSQL 15, Docker Compose, Nginx, Certbot.
+- **Оптимизация:** Полное исключение проблемы N+1 запросов с помощью `select_related`, `prefetch_related` и агрегации `annotate`.
+
+#### 🏭 Платформа HIL-тестирования ПЛК (АО «ЭлеСи»)
+**Система параллельного запуска автотестов прошивок промышленных контроллеров**
+- **Стек:** Python, Django, PostgreSQL, Threading, SSE, PyModbus.
+- **Результат:** Сокращение времени регрессионного тестирования на 90% (400+ автотестов по протоколу Modbus TCP), многопоточный неблокирующий движок с передачей телеметрии в реальном времени.
+
+---
+
+### 📫 Контакты
+
+- 📞 **Телефон**: +7 (923) 410-13-38
+- ✉️ **Email**: 79234101338@yandex.ru
+- 💬 **VK**: [vk.com/kentiy2717](https://vk.com/kentiy2717)
+- 💻 **GitHub**: [github.com/Kentiy2717](https://github.com/Kentiy2717)
+- 📍 **Локация**: Томск, Россия (готов к удаленной работе)
