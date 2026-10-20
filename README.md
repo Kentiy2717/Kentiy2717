@@ -30,6 +30,22 @@ Python Backend-разработчик с 2 годами коммерческог
 
 ### 💼 Ключевые проекты
 
+#### 🎲 [Zatusim — Социальный лаунчер для живых тусовок и игр](https://zatusim.online/)
+**Современная full-stack платформа для вечеринок, командных игр и знакомств**
+
+- **Стек:** 
+  - **Backend:** Python 3.12+, FastAPI (Async/Await), SQLAlchemy 2.0 (AsyncSession + asyncpg), Pydantic v2, Alembic, PyJWT, Bcrypt.
+  - **Frontend:** React Native (Expo Web), TypeScript, React 19, Axios, Context API.
+  - **DevOps & Infra:** Docker Compose, Nginx Reverse Proxy (SSL/TLS Let's Encrypt), GitHub Actions (CI/CD), Pytest.
+
+- **Архитектурные и технические решения:**
+  - **Модульная архитектура (Vertical Slicing):** Разделение на независимые изолированные сервисные модули (`users`, `auth`, `friends`, `parties`, `games`) с собственными `APIRouter()`, слоем бизнес-логики (Service layer) и доменными исключениями.
+  - **Асинхронный ORM & Вычисляемые поля:** SQLAlchemy 2.0 с `asyncpg`. Расчёт возраста и статуса `is_adult` на лету через Pydantic `@computed_field` на основе даты рождения (без использования cron-пересчёта и мусорных полей в БД).
+  - **Гибкая система приватности:** Хранение флагов видимости полей профиля в `JSONB`-колонке PostgreSQL и динамическая фильтрация данных на уровне бэкенда при публичном запросе профиля (для гостей, всех пользователей или только друзей).
+  - **Медиа-подсистема:** Асинхронная загрузка аватарок (`UploadFile` + `aiofiles`) с автоматической очисткой старых файлов, валидацией MIME-типов и монтированием Docker Volumes для сохранения файлов при перезаборке контейнеров.
+  - **CI/CD & Автоматическое тестирование:** Настроен GitHub Actions workflow — автоматический запуск интеграционных тестов на `pytest` в изолированном контейнере PostgreSQL 15, проверка линтером `Ruff`, автоматическое применение миграций Alembic и zero-downtime деплой на VPS по SSH при пуше в `master`.
+  - **VK-style UI/UX Layout:** Адаптивный веб-интерфейс на React Native (Expo Web) с авто-сворачиваемым сайдбаром, сокрытием защищённых роутов для гостей, модальными окнами управления аккаунтом и переключателем тусовочного статуса (`ready`, `busy`, `snooze`).
+
 #### 🚀 [YourDev — Сервис заказа IT-разработки](https://github.com/Kentiy2717/yourdev)
 **Асинхронная веб-платформа на FastAPI и Clean Architecture**
 - **Clean Architecture:** Жесткое разделение слоев (Router $\rightarrow$ Service $\rightarrow$ Repository).
@@ -41,11 +57,6 @@ Python Backend-разработчик с 2 годами коммерческог
 - **Стек:** Django 3.2, PostgreSQL, Pytest, Django Signals.
 - **Архитектурные решения:** Кастомная аутентификация по Email (`AbstractUser`), мягкое удаление (`Soft Delete`), каскадная синхронизация целостности данных на сигналах с `transaction.on_commit`.
 - **Тестирование:** Покрытие бизнес-логики интеграционными и модульными тестами на `pytest-django`.
-
-#### 🎲 [Zatusim — Игровая веб-платформа](https://github.com/Kentiy2717/zatusim)
-**Интерактивный игровой сервис для вечеринок**
-- **Стек:** Django 3.2, PostgreSQL, JSONField, ETL-скрипты.
-- **Оптимизация:** Движок игровых сессий с хранением состояний в `JSONField` (без избыточных `JOIN`), REST-like JsonResponse эндпоинты, массовая вставка контента через `bulk_create`.
 
 #### 📚 [Биполярный Экспресс — Контентная платформа](https://github.com/Kentiy2717/bipolar-express)
 **Каталог книг и веб-блог с оптимизированными запросами к БД**
